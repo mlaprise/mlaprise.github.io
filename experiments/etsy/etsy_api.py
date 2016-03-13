@@ -22,7 +22,7 @@ class Etsy(object):
 
 
     def get_shop_listing(self, shop_id, page=1, limit=100, fields=['title', 'description']):
-        '''Get the listing of a specific shop.
+        '''Get the listing for a specific shop.
 
         :param shop_id: Unique id of of the shop.
         :param page: Pagination.

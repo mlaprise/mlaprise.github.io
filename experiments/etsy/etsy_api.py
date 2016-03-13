@@ -3,7 +3,7 @@ import requests
 
 
 class Etsy(object):
-    '''Simple wrapper around Etsy API.'''
+    '''Minimalist wrapper around Etsy API.'''
 
     def __init__(self, etsy_apikey, etsy_secret):
         self.base_url = 'https://openapi.etsy.com/v2'
@@ -23,6 +23,7 @@ class Etsy(object):
 
     def get_shop_listing(self, shop_id, page=1, limit=100, fields=['title', 'description']):
         '''Get the listing of specific shop.
+
         :param shop_id: Unique id of of the shop.
         :param page: Pagination.
         :param limit: Number of item per page.

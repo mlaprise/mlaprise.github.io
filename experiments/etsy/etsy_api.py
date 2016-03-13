@@ -22,11 +22,11 @@ class Etsy(object):
 
 
     def get_shop_listing(self, shop_id, page=1, limit=100, fields=['title', 'description']):
-        '''Get the listing of specific shop.
+        '''Get the listing of a specific shop.
 
         :param shop_id: Unique id of of the shop.
         :param page: Pagination.
-        :param limit: Number of item per page.
+        :param limit: Number of items per page.
         :param fields: Fields to include in the result.
         :return: The raw JSON response.
         '''

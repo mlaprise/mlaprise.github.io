@@ -20,7 +20,7 @@ etsy_api = Etsy(ETSY_APIKEY, ETSY_APIKEY)
 def items_listing_generator(shop_id):
     '''Fetch all items title and description for a specific etsy shop.
 
-    :param shop_id: Etsy shop id
+    :param shop_id: Etsy shop id.
     '''
     page = 1
     while page:
@@ -47,7 +47,7 @@ def get_top_terms(shop_items, top_n = 5):
 
     :param shop_items: List of all the shop items.
     :param top_n: Return the top_n terms.
-    :return: List of top terms. Each item is a tuple (term, score)
+    :return: List of top terms. Each item is a tuple (term, frequency)
     '''
     terms_freq = defaultdict(int)
     for unigram in unigram_generator(shop_items):

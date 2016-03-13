@@ -14,8 +14,6 @@ ETSY_SECRET = 'i5xax0ccnn'
 
 toker = RegexpTokenizer(r'\w{3,}')
 
-etsy_api = Etsy(ETSY_APIKEY, ETSY_APIKEY)
-
 
 def items_listing_generator(shop_id):
     '''Fetch all items title and description for a specific etsy shop.
@@ -27,7 +25,7 @@ def items_listing_generator(shop_id):
         response = etsy_api.get_shop_listing(shop_id, page=page)
         page = response['pagination']['next_page']
         for item in response['results']:
-            yield item['description'] + " " + item['title']
+            yield u"{} {}".format(item['title'], item['description'])
 
 
 def unigram_generator(docs):
@@ -67,6 +65,8 @@ if __name__ == "__main__":
                   'bertiescloset',
                   'TheComposersPen',
                   'SupremerStudio']
+
+    etsy_api = Etsy(ETSY_APIKEY, ETSY_APIKEY)
 
     for shop_id in etsy_shops:
         print "\nEtsy Shop: {}".format(shop_id)

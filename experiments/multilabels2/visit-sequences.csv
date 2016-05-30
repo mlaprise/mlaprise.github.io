@@ -1,65 +1,188 @@
-Pop Culture-end,11
-Pop Culture-Pop Culture  Funny-end,11
-Actual consumer-Not Interesting-end,2
-Interesting-Pop Culture-Pop Culture  Funny-end,1
-Interesting-Actual consumer-end,12
-Not Interesting-Actual consumer-end,2
-Pop Culture-Interesting-end,6
-Actual consumer-Interesting-Not Interesting-end,2
-Pop Culture-Actual consumer-Interesting-end,6
-Pop Culture-Interesting-end,11
-Not Interesting-Actual consumer-end,4
-Interesting-Pop Culture  Funny-end,12
-Pop Culture-Actual consumer-end,2
-Not Interesting-end,4
-Pop Culture-Interesting-Not Interesting-end,2
-Pop Culture-Not Interesting-Actual consumer-end,2
-Pop Culture  Funny-Pop Culture-Pop Culture  Funny-end,1
-Pop Culture-Interesting-Actual consumer-end,2
-Pop Culture  Funny-Interesting-Pop Culture-end,1
-Actual consumer-Not Interesting-Interesting-end,2
-Actual consumer-Pop Culture-Not Interesting-end,2
-Pop Culture-Not Interesting-Pop Culture  Funny-end,1
-Interesting-Pop Culture  Funny-Pop Culture  Funny-end,1
-Pop Culture  Funny-Pop Culture  Funny-Pop Culture  Funny-end,1
-Interesting-Pop Culture-end,12
-Pop Culture-Pop Culture  Funny-Not Interesting-end,2
-Actual consumer-Pop Culture-Interesting-end,2
-Pop Culture  Funny-Pop Culture  Funny-Pop Culture-end,1
-Not Interesting-Actual consumer-Pop Culture-end,2
-Actual consumer-Pop Culture-end,2
-Actual consumer-Interesting-Pop Culture-end,2
-Interesting-Pop Culture  Funny-Actual consumer-end,2
-Interesting-Pop Culture-end,6
-Pop Culture-Actual consumer-end,11
-Pop Culture  Funny-Interesting-Pop Culture  Funny-end,1
-Pop Culture  Funny-Pop Culture-Interesting-end,1
-Interesting-Actual consumer-Pop Culture-end,6
-Pop Culture-Pop Culture  Funny-Interesting-end,6
-Pop Culture-Not Interesting-Interesting-end,6
-Not Interesting-Pop Culture-end,2
-Actual consumer-Pop Culture-end,9
-Interesting-Pop Culture  Funny-Pop Culture-end,6
-Actual consumer-Not Interesting-end,9
-Actual consumer-Not Interesting-Pop Culture-end,2
-Interesting-Pop Culture  Funny-end,1
-Actual consumer-Interesting-end,9
-Pop Culture-Not Interesting-end,2
-Pop Culture-Pop Culture  Funny-Actual consumer-end,2
-Pop Culture-Interesting-Pop Culture  Funny-end,1
-Not Interesting-Pop Culture-Actual consumer-end,2
-Pop Culture  Funny-Pop Culture-end,1
-Pop Culture-Actual consumer-Pop Culture  Funny-end,1
-Actual consumer-end,9
-Pop Culture-Pop Culture  Funny-end,1
-Not Interesting-Pop Culture-end,4
-Interesting-Pop Culture-Actual consumer-end,2
-Interesting-Actual consumer-end,2
-Pop Culture-Not Interesting-end,11
-Interesting-Actual consumer-Pop Culture  Funny-end,1
-Pop Culture-Actual consumer-Not Interesting-end,2
-Pop Culture  Funny-Interesting-end,1
-Interesting-end,12
-Pop Culture  Funny-Pop Culture  Funny-Interesting-end,1
-Pop Culture-Pop Culture  Funny-Pop Culture  Funny-end,1
-Actual consumer-Interesting-end,2
+labels,zdoc_count
+neutral-CYBG Specific-NAGE PPI-end,1
+Deloitte Specific-neutral-negative-end,5
+CYBG Specific-done-neutral-end,6
+Deloitte Specific-negative-end,46
+done-Immediate-Duplicates-end,2
+neutral-Immediate-NAGE PPI-end,1
+done-General-neutral-end,9
+neutral-Deloitte Specific-Immediate-end,3
+negative-CYBG Specific-Deloitte Specific-end,5
+CYBG Specific-negative-end,8
+done-Deloitte Specific-neutral-end,9
+done-negative-neutral-end,9
+done-negative-CYBG Specific-end,5
+done-CYBG Specific-Deloitte Specific-end,9
+neutral-Immediate-end,20
+Immediate-done-end,4
+Deloitte Specific-negative-end,5
+Deloitte Specific-negative-done-end,7
+done-Duplicates-neutral-end,9
+Immediate-neutral-done-end,3
+neutral-done-end,9
+done-Deloitte Specific-Duplicates-end,2
+CYBG Specific-negative-end,16
+done-negative-end,7
+neutral-General-done-end,9
+done-Immediate-neutral-end,9
+neutral-Deloitte Specific-done-end,9
+done-Immediate-CYBG Specific-end,5
+CYBG Specific-neutral-end,6
+neutral-CYBG Specific-Deloitte Specific-end,5
+done-General-end,157
+done-Immediate-negative-end,7
+done-Immediate-General-end,2
+done-neutral-Deloitte Specific-end,9
+neutral-done-General-end,1
+Immediate-neutral-end,3
+negative-Deloitte Specific-CYBG Specific-end,8
+Deloitte Specific-negative-neutral-end,3
+done-Duplicates-end,157
+Immediate-Deloitte Specific-end,1
+done-Immediate-end,157
+Deloitte Specific-done-end,7
+done-Duplicates-Deloitte Specific-end,9
+done-Duplicates-end,2
+done-CYBG Specific-end,5
+done-General-Duplicates-end,2
+neutral-done-CYBG Specific-end,6
+CYBG Specific-negative-neutral-end,6
+CYBG Specific-neutral-negative-end,8
+negative-done-CYBG Specific-end,8
+NAGE PPI-neutral-end,1
+done-negative-General-end,2
+done-negative-Duplicates-end,2
+NAGE PPI-done-end,2
+done-negative-Deloitte Specific-end,9
+done-General-Deloitte specific-end,2
+neutral-Deloitte Specific-end,20
+done-CYBG Specific-Deloitte specific-end,2
+Immediate-end,4
+done-neutral-end,157
+neutral-CYBG Specific-end,20
+done-CYBG Specific-Duplicates-end,2
+neutral-Deloitte Specific-end,5
+neutral-Immediate-end,3
+done-General-CYBG Specific-end,5
+Deloitte Specific-Immediate-done-end,7
+CYBG Specific-neutral-done-end,5
+done-neutral-negative-end,7
+NAGE PPI-done-neutral-end,1
+done-Deloitte specific-neutral-end,9
+Deloitte Specific-neutral-done-end,7
+done-Duplicates-Deloitte specific-end,2
+neutral-CYBG Specific-end,6
+Direct Recruitment-end,3
+neutral-General-Deloitte Specific-end,5
+done-neutral-Immediate-end,3
+Immediate-neutral-Deloitte Specific-end,1
+Deloitte Specific-done-Immediate-end,1
+neutral-done-Immediate-end,3
+Immediate-done-end,3
+CYBG Specific-negative-done-end,5
+done-Deloitte specific-end,2
+done-neutral-Deloitte specific-end,2
+done-Deloitte Specific-CYBG Specific-end,5
+neutral-General-Immediate-end,3
+Immediate-done-Deloitte Specific-end,1
+neutral-done-Deloitte Specific-end,5
+neutral-General-CYBG Specific-end,6
+done-Deloitte specific-General-end,2
+done-Deloitte specific-Immediate-end,3
+done-Duplicates-General-end,2
+negative-end,13
+neutral-NAGE PPI-end,1
+NAGE PPI-neutral-done-end,2
+neutral-CYBG Specific-General-end,1
+negative-Deloitte Specific-end,13
+done-Immediate-Deloitte Specific-end,9
+done-General-Deloitte Specific-end,9
+done-negative-Deloitte specific-end,2
+Deloitte Specific-Immediate-end,1
+negative-CYBG Specific-done-end,7
+Immediate-Deloitte Specific-end,4
+neutral-Immediate-General-end,1
+neutral-Deloitte Specific-CYBG Specific-end,6
+negative-CYBG Specific-end,13
+Immediate-done-neutral-end,3
+done-CYBG Specific-General-end,2
+Deloitte Specific-Immediate-neutral-end,3
+done-Deloitte specific-negative-end,7
+done-Deloitte Specific-Deloitte specific-end,2
+neutral-Deloitte Specific-General-end,1
+done-Deloitte Specific-end,9
+CYBG Specific-done-end,5
+NAGE PPI-neutral-end,3
+negative-Deloitte Specific-done-end,7
+Deloitte Specific-neutral-Immediate-end,1
+Deloitte specific-done-end,3
+done-Duplicates-negative-end,7
+neutral-CYBG Specific-Immediate-end,3
+done-Deloitte specific-end,157
+CYBG Specific-done-end,16
+Deloitte Specific-Immediate-end,46
+Immediate-neutral-end,4
+neutral-end,20
+done-Immediate-end,3
+done-neutral-end,9
+done-Duplicates-CYBG Specific-end,5
+neutral-done-NAGE PPI-end,1
+neutral-done-end,20
+Deloitte Specific-done-end,46
+CYBG Specific-neutral-end,16
+done-General-negative-end,7
+done-CYBG Specific-neutral-end,9
+done-Duplicates-Immediate-end,3
+CYBG Specific-done-negative-end,8
+neutral-Immediate-CYBG Specific-end,6
+done-neutral-Duplicates-end,2
+Deloitte specific-done-end,2
+neutral-General-NAGE PPI-end,1
+done-Deloitte specific-CYBG Specific-end,5
+neutral-NAGE PPI-General-end,1
+neutral-CYBG Specific-done-end,9
+done-Deloitte specific-Deloitte Specific-end,9
+done-Deloitte Specific-General-end,2
+Deloitte specific-end,3
+done-Deloitte Specific-Immediate-end,3
+done-neutral-CYBG Specific-end,5
+done-Deloitte specific-Duplicates-end,2
+done-CYBG Specific-Immediate-end,3
+Deloitte Specific-neutral-end,3
+neutral-Immediate-done-end,9
+neutral-NAGE PPI-CYBG Specific-end,6
+NAGE PPI-done-end,3
+done-negative-Immediate-end,3
+CYBG Specific-end,16
+done-Deloitte Specific-end,157
+Deloitte Specific-done-neutral-end,3
+neutral-General-end,1
+done-Immediate-Deloitte specific-end,2
+done-General-Immediate-end,3
+neutral-NAGE PPI-done-end,9
+neutral-NAGE PPI-end,20
+negative-Deloitte Specific-end,5
+Immediate-Deloitte Specific-done-end,3
+negative-done-end,13
+done-end,157
+neutral-Deloitte Specific-NAGE PPI-end,1
+done-Deloitte Specific-negative-end,7
+Immediate-Deloitte Specific-neutral-end,3
+NAGE PPI-end,3
+negative-CYBG Specific-end,8
+neutral-NAGE PPI-Deloitte Specific-end,5
+Deloitte Specific-end,46
+done-CYBG Specific-end,157
+neutral-General-end,20
+neutral-NAGE PPI-Immediate-end,3
+done-General-end,2
+negative-done-end,7
+negative-done-Deloitte Specific-end,5
+Deloitte Specific-Immediate-negative-end,5
+Deloitte Specific-negative-Immediate-end,1
+done-CYBG Specific-negative-end,7
+Deloitte Specific-neutral-end,46
+done-negative-end,157
+Deloitte Specific-done-negative-end,5
+done-neutral-General-end,2
+neutral-Immediate-Deloitte Specific-end,5

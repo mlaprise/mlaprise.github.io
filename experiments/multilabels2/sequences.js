@@ -10,11 +10,15 @@ var b = {
 
 // Mapping of step names to colors.
 var colors = {
-  "Interesting": "#5687d1",
-  "Pop Culture": "#7b615c",
-  "Actual consumer": "#de783b",
-  "Pop Culture  Funny": "#6ab975",
-  "Not Interesting": "#a173d1",
+  "Deloitte Specific": "#5687d1",
+  "Deloitte specific": "#5687d1",
+  "CYBG Specific": "#7b615c",
+  "done": "#de783b",
+  "Immediate": "#6ab975",
+  "neutral": "#a173d1",
+  "negative": "#ed4444",
+  "positive": "#44c3ed",
+  "General": "#8db856",
   "end": "#ffffff"
 };
 

@@ -1,9 +1,10 @@
+labels,zdoc_count
 Interesting|Actual consumer|Pop Culture - Funny,1
-Actual consumer,9
 Pop Culture|Actual consumer|Pop Culture - Funny,1
 Not Interesting|Pop Culture,2
 Not Interesting|Actual consumer,4
 Pop Culture|Not Interesting|Actual consumer,2
+Not Interesting|Not Interesting,4
 Pop Culture|Not Interesting|Interesting,6
 Interesting|Pop Culture - Funny,12
 Pop Culture|Interesting|Not Interesting,2
@@ -13,6 +14,7 @@ Pop Culture - Funny|Pop Culture|Interesting,1
 Actual consumer|Not Interesting,9
 Pop Culture|Interesting|Pop Culture - Funny,1
 Not Interesting|Pop Culture,4
+Actual consumer|Actual consumer,9
 Pop Culture|Not Interesting,2
 Interesting|Pop Culture|Pop Culture - Funny,1
 Pop Culture - Funny|Interesting,1
@@ -25,7 +27,6 @@ Interesting|Actual consumer,2
 Pop Culture - Funny|Interesting|Pop Culture,1
 Pop Culture|Pop Culture - Funny,1
 Pop Culture - Funny|Pop Culture,1
-Pop Culture - Funny,1
 Not Interesting|Actual consumer,2
 Interesting|Pop Culture|Actual consumer,2
 Actual consumer|Interesting,2
@@ -34,10 +35,10 @@ Actual consumer|Pop Culture,2
 Actual consumer|Interesting|Not Interesting,2
 Pop Culture|Interesting,11
 Actual consumer|Not Interesting|Pop Culture,2
+Pop Culture - Funny|Pop Culture - Funny,1
 Interesting|Pop Culture - Funny|Pop Culture,6
 Pop Culture|Not Interesting,11
-Pop Culture|Pop Culture - Funny|Not Interesting,2
-Not Interesting,4
+Interesting|Interesting,12
 Pop Culture|Actual consumer,2
 Pop Culture|Pop Culture - Funny|Interesting,6
 Pop Culture|Pop Culture - Funny|Actual consumer,2
@@ -48,12 +49,12 @@ Actual consumer|Pop Culture,9
 Actual consumer|Not Interesting,2
 Actual consumer|Not Interesting|Interesting,2
 Interesting|Pop Culture - Funny,1
-Pop Culture,11
 Actual consumer|Interesting|Pop Culture,2
 Interesting|Pop Culture,12
-Not Interesting|Actual consumer|Pop Culture,2
+Pop Culture|Pop Culture - Funny|Not Interesting,2
+Pop Culture|Pop Culture,11
 Pop Culture|Interesting|Actual consumer,2
 Actual consumer|Pop Culture|Interesting,2
 Interesting|Actual consumer,12
-Interesting,12
+Not Interesting|Actual consumer|Pop Culture,2
 Interesting|Actual consumer|Pop Culture,6

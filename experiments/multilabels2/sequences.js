@@ -13,11 +13,11 @@ var colors = {
   "Deloitte Specific": "#5687d1",
   "Deloitte specific": "#5687d1",
   "CYBG Specific": "#7b615c",
-  "done": "#de783b",
   "Immediate": "#6ab975",
-  "neutral": "#a173d1",
-  "negative": "#ed4444",
-  "positive": "#44c3ed",
+  "NAGE PPI": "#a173d1",
+  "Direct Recruitment": "#ed4444",
+  "Twitter MasterClass": "#DE783B",
+  "AstraZeneca Specific": "#D23BDE",
   "General": "#8db856",
   "end": "#ffffff"
 };

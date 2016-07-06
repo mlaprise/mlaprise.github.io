@@ -89,7 +89,7 @@ var sankey = d3.sankey()
 
 var path = sankey.link();
 
-d3.json("energy.json", function(energy) {
+d3.json("events_flow.json", function(energy) {
 
   sankey
       .nodes(energy.nodes)
@@ -144,11 +144,3 @@ d3.json("energy.json", function(energy) {
 });
 
 </script>
-<script>
-
-GoogleAnalyticsObject = "ga", ga = function() { ga.q.push(arguments); }, ga.q = [], ga.l = +new Date;
-ga("create", "UA-48272912-3", "ocks.org");
-ga("send", "pageview");
-
-</script>
-<script async src="//www.google-analytics.com/analytics.js"></script>

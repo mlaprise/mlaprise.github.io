@@ -36,6 +36,9 @@
 
 <h1>Events Flow</h1>
 
+<p id="chart">
+
+
 <script src="//d3js.org/d3.v2.min.js" charset="utf-8"></script>
 <script src="sankey.js"></script>
 <script>
@@ -45,7 +48,7 @@ var margin = {top: 1, right: 1, bottom: 6, left: 1},
     height = 500 - margin.top - margin.bottom;
 
 var formatNumber = d3.format(",.0f"),
-    format = function(d) { return formatNumber(d) + " TWh"; },
+    format = function(d) { return formatNumber(d) + " sessions"; },
     color = d3.scale.category20();
 
 var svg = d3.select("#chart").append("svg")

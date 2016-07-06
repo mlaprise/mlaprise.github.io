@@ -1,36 +1,22 @@
 {
+ "directed": true, 
+ "graph": {}, 
  "nodes": [
   {
    "name": "Inbox: result read", 
    "id": "Inbox: result read"
   }, 
   {
-   "name": "Searches: search deleted", 
-   "id": "Searches: search deleted"
-  }, 
-  {
    "name": "Searches: new search created", 
    "id": "Searches: new search created"
   }, 
   {
-   "name": "Inbox: filter dropdown opened", 
-   "id": "Inbox: filter dropdown opened"
-  }, 
-  {
-   "name": "Onboarding: Onboarding completed", 
-   "id": "Onboarding: Onboarding completed"
-  }, 
-  {
-   "name": "Onboarding: Company details confirmed", 
-   "id": "Onboarding: Company details confirmed"
+   "name": "Searches: search deleted", 
+   "id": "Searches: search deleted"
   }, 
   {
    "name": "Inbox: custom label applied", 
    "id": "Inbox: custom label applied"
-  }, 
-  {
-   "name": "Onboarding: Completed Onboarding P2", 
-   "id": "Onboarding: Completed Onboarding P2"
   }, 
   {
    "name": "Inbox: search dropdown opened", 
@@ -41,32 +27,16 @@
    "id": "Inbox: sentiment label applied"
   }, 
   {
-   "name": "Inbox: filter removed", 
-   "id": "Inbox: filter removed"
-  }, 
-  {
-   "name": "Inbox: filter added", 
-   "id": "Inbox: filter added"
-  }, 
-  {
    "name": "Inbox: folder selected", 
    "id": "Inbox: folder selected"
   }, 
   {
-   "name": "Inbox: label created", 
-   "id": "Inbox: label created"
+   "name": "Inbox: filter dropdown opened", 
+   "id": "Inbox: filter dropdown opened"
   }, 
   {
    "name": "Searches: search updated", 
    "id": "Searches: search updated"
-  }, 
-  {
-   "name": "Inbox: All searches selected", 
-   "id": "Inbox: All searches selected"
-  }, 
-  {
-   "name": "Inbox: result-set exported", 
-   "id": "Inbox: result-set exported"
   }, 
   {
    "name": "Inbox: single search results viewed", 
@@ -81,557 +51,68 @@
   {
    "source": 0, 
    "target": 3, 
-   "value": 20
-  }, 
-  {
-   "source": 0, 
-   "target": 6, 
    "value": 2460
   }, 
   {
    "source": 0, 
-   "target": 8, 
+   "target": 6, 
+   "value": 64
+  }, 
+  {
+   "source": 0, 
+   "target": 4, 
    "value": 51
   }, 
   {
    "source": 0, 
-   "target": 9, 
+   "target": 5, 
    "value": 1124
   }, 
   {
    "source": 0, 
    "target": 10, 
-   "value": 38
-  }, 
-  {
-   "source": 0, 
-   "target": 12, 
-   "value": 64
-  }, 
-  {
-   "source": 0, 
-   "target": 13, 
-   "value": 15
-  }, 
-  {
-   "source": 0, 
-   "target": 14, 
-   "value": 1
-  }, 
-  {
-   "source": 0, 
-   "target": 16, 
-   "value": 1
-  }, 
-  {
-   "source": 0, 
-   "target": 18, 
    "value": 3589
   }, 
   {
-   "source": 1, 
-   "target": 12, 
-   "value": 3
-  }, 
-  {
-   "source": 1, 
-   "target": 2, 
-   "value": 1
-  }, 
-  {
-   "source": 1, 
-   "target": 8, 
-   "value": 36
-  }, 
-  {
-   "source": 1, 
-   "target": 17, 
-   "value": 1
-  }, 
-  {
-   "source": 2, 
-   "target": 14, 
-   "value": 6
-  }, 
-  {
-   "source": 2, 
-   "target": 12, 
-   "value": 7
-  }, 
-  {
-   "source": 2, 
-   "target": 8, 
-   "value": 19
-  }, 
-  {
-   "source": 3, 
-   "target": 11, 
-   "value": 396
-  }, 
-  {
-   "source": 3, 
-   "target": 0, 
-   "value": 1
-  }, 
-  {
-   "source": 3, 
-   "target": 12, 
-   "value": 3
-  }, 
-  {
-   "source": 3, 
-   "target": 8, 
-   "value": 4
-  }, 
-  {
-   "source": 3, 
-   "target": 10, 
-   "value": 12
-  }, 
-  {
    "source": 4, 
-   "target": 7, 
-   "value": 3
-  }, 
-  {
-   "source": 5, 
-   "target": 4, 
-   "value": 7
-  }, 
-  {
-   "source": 6, 
-   "target": 0, 
-   "value": 1061
-  }, 
-  {
-   "source": 6, 
-   "target": 3, 
-   "value": 1
-  }, 
-  {
-   "source": 6, 
-   "target": 8, 
-   "value": 3
-  }, 
-  {
-   "source": 6, 
-   "target": 9, 
-   "value": 194
-  }, 
-  {
-   "source": 6, 
-   "target": 12, 
-   "value": 66
-  }, 
-  {
-   "source": 6, 
-   "target": 13, 
-   "value": 3
-  }, 
-  {
-   "source": 6, 
-   "target": 14, 
-   "value": 1
-  }, 
-  {
-   "source": 6, 
-   "target": 16, 
-   "value": 1
-  }, 
-  {
-   "source": 6, 
-   "target": 18, 
-   "value": 3249
-  }, 
-  {
-   "source": 7, 
-   "target": 5, 
-   "value": 7
-  }, 
-  {
-   "source": 8, 
-   "target": 0, 
-   "value": 12
-  }, 
-  {
-   "source": 8, 
-   "target": 1, 
-   "value": 42
-  }, 
-  {
-   "source": 8, 
-   "target": 2, 
-   "value": 30
-  }, 
-  {
-   "source": 8, 
-   "target": 3, 
-   "value": 4
-  }, 
-  {
-   "source": 8, 
    "target": 6, 
-   "value": 2
-  }, 
-  {
-   "source": 8, 
-   "target": 9, 
-   "value": 1
-  }, 
-  {
-   "source": 8, 
-   "target": 12, 
    "value": 70
   }, 
   {
-   "source": 8, 
-   "target": 17, 
-   "value": 163
-  }, 
-  {
-   "source": 8, 
-   "target": 13, 
-   "value": 3
-  }, 
-  {
-   "source": 8, 
-   "target": 14, 
+   "source": 4, 
+   "target": 8, 
    "value": 228
   }, 
   {
-   "source": 8, 
-   "target": 15, 
-   "value": 20
+   "source": 4, 
+   "target": 1, 
+   "value": 30
   }, 
   {
-   "source": 8, 
-   "target": 18, 
-   "value": 5
+   "source": 4, 
+   "target": 2, 
+   "value": 42
   }, 
   {
-   "source": 9, 
-   "target": 0, 
-   "value": 27
+   "source": 4, 
+   "target": 9, 
+   "value": 163
   }, 
   {
-   "source": 9, 
-   "target": 6, 
-   "value": 1185
-  }, 
-  {
-   "source": 9, 
-   "target": 8, 
-   "value": 1
-  }, 
-  {
-   "source": 9, 
-   "target": 12, 
-   "value": 4
-  }, 
-  {
-   "source": 9, 
-   "target": 13, 
-   "value": 1
-  }, 
-  {
-   "source": 9, 
+   "source": 6, 
    "target": 3, 
-   "value": 1
-  }, 
-  {
-   "source": 9, 
-   "target": 18, 
-   "value": 150
-  }, 
-  {
-   "source": 10, 
-   "target": 0, 
-   "value": 6
-  }, 
-  {
-   "source": 10, 
-   "target": 6, 
-   "value": 1
-  }, 
-  {
-   "source": 10, 
-   "target": 8, 
-   "value": 3
-  }, 
-  {
-   "source": 10, 
-   "target": 12, 
-   "value": 4
-  }, 
-  {
-   "source": 10, 
-   "target": 18, 
-   "value": 1
-  }, 
-  {
-   "source": 10, 
-   "target": 3, 
-   "value": 191
-  }, 
-  {
-   "source": 11, 
-   "target": 0, 
-   "value": 104
-  }, 
-  {
-   "source": 11, 
-   "target": 8, 
-   "value": 1
-  }, 
-  {
-   "source": 11, 
-   "target": 18, 
-   "value": 4
-  }, 
-  {
-   "source": 11, 
-   "target": 10, 
-   "value": 132
-  }, 
-  {
-   "source": 11, 
-   "target": 3, 
-   "value": 149
-  }, 
-  {
-   "source": 12, 
-   "target": 0, 
-   "value": 150
-  }, 
-  {
-   "source": 12, 
-   "target": 14, 
-   "value": 2
-  }, 
-  {
-   "source": 12, 
-   "target": 6, 
    "value": 48
   }, 
   {
-   "source": 12, 
-   "target": 8, 
-   "value": 116
+   "source": 6, 
+   "target": 7, 
+   "value": 12
   }, 
   {
-   "source": 12, 
-   "target": 9, 
-   "value": 5
-  }, 
-  {
-   "source": 12, 
+   "source": 6, 
    "target": 10, 
-   "value": 3
-  }, 
-  {
-   "source": 12, 
-   "target": 11, 
-   "value": 1
-  }, 
-  {
-   "source": 12, 
-   "target": 13, 
-   "value": 8
-  }, 
-  {
-   "source": 12, 
-   "target": 3, 
-   "value": 12
-  }, 
-  {
-   "source": 12, 
-   "target": 16, 
-   "value": 12
-  }, 
-  {
-   "source": 12, 
-   "target": 18, 
    "value": 22
-  }, 
-  {
-   "source": 13, 
-   "target": 6, 
-   "value": 14
-  }, 
-  {
-   "source": 13, 
-   "target": 12, 
-   "value": 6
-  }, 
-  {
-   "source": 13, 
-   "target": 8, 
-   "value": 5
-  }, 
-  {
-   "source": 13, 
-   "target": 9, 
-   "value": 3
-  }, 
-  {
-   "source": 13, 
-   "target": 0, 
-   "value": 6
-  }, 
-  {
-   "source": 14, 
-   "target": 6, 
-   "value": 1
-  }, 
-  {
-   "source": 14, 
-   "target": 12, 
-   "value": 123
-  }, 
-  {
-   "source": 14, 
-   "target": 13, 
-   "value": 4
-  }, 
-  {
-   "source": 14, 
-   "target": 8, 
-   "value": 34
-  }, 
-  {
-   "source": 14, 
-   "target": 16, 
-   "value": 1
-  }, 
-  {
-   "source": 15, 
-   "target": 0, 
-   "value": 8
-  }, 
-  {
-   "source": 15, 
-   "target": 12, 
-   "value": 1
-  }, 
-  {
-   "source": 15, 
-   "target": 8, 
-   "value": 9
-  }, 
-  {
-   "source": 15, 
-   "target": 18, 
-   "value": 1
-  }, 
-  {
-   "source": 16, 
-   "target": 0, 
-   "value": 4
-  }, 
-  {
-   "source": 16, 
-   "target": 12, 
-   "value": 8
-  }, 
-  {
-   "source": 16, 
-   "target": 8, 
-   "value": 2
-  }, 
-  {
-   "source": 16, 
-   "target": 9, 
-   "value": 1
-  }, 
-  {
-   "source": 17, 
-   "target": 0, 
-   "value": 12
-  }, 
-  {
-   "source": 17, 
-   "target": 8, 
-   "value": 140
-  }, 
-  {
-   "source": 17, 
-   "target": 12, 
-   "value": 5
-  }, 
-  {
-   "source": 17, 
-   "target": 13, 
-   "value": 1
-  }, 
-  {
-   "source": 17, 
-   "target": 16, 
-   "value": 1
-  }, 
-  {
-   "source": 17, 
-   "target": 3, 
-   "value": 1
-  }, 
-  {
-   "source": 18, 
-   "target": 0, 
-   "value": 5947
-  }, 
-  {
-   "source": 18, 
-   "target": 6, 
-   "value": 863
-  }, 
-  {
-   "source": 18, 
-   "target": 8, 
-   "value": 15
-  }, 
-  {
-   "source": 18, 
-   "target": 9, 
-   "value": 40
-  }, 
-  {
-   "source": 18, 
-   "target": 10, 
-   "value": 23
-  }, 
-  {
-   "source": 18, 
-   "target": 11, 
-   "value": 1
-  }, 
-  {
-   "source": 18, 
-   "target": 12, 
-   "value": 58
-  }, 
-  {
-   "source": 18, 
-   "target": 13, 
-   "value": 1
-  }, 
-  {
-   "source": 18, 
-   "target": 14, 
-   "value": 1
-  }, 
-  {
-   "source": 18, 
-   "target": 16, 
-   "value": 2
-  }, 
-  {
-   "source": 18, 
-   "target": 17, 
-   "value": 1
-  }, 
-  {
-   "source": 18, 
-   "target": 3, 
-   "value": 20
   }
- ]
+ ], 
+ "multigraph": false
 }

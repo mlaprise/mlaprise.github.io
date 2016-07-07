@@ -7,16 +7,28 @@
    "id": "Inbox: result read"
   }, 
   {
-   "name": "Searches: new search created", 
-   "id": "Searches: new search created"
+   "name": "Onboarding: Company details confirmed", 
+   "id": "Onboarding: Company details confirmed"
   }, 
   {
-   "name": "Searches: search deleted", 
-   "id": "Searches: search deleted"
+   "name": "Inbox: system label applied", 
+   "id": "Inbox: system label applied"
+  }, 
+  {
+   "name": "Inbox: filter dropdown opened", 
+   "id": "Inbox: filter dropdown opened"
+  }, 
+  {
+   "name": "Page /invite/ Loaded", 
+   "id": "Page /invite/ Loaded"
   }, 
   {
    "name": "Inbox: custom label applied", 
    "id": "Inbox: custom label applied"
+  }, 
+  {
+   "name": "Page /login/ Loaded", 
+   "id": "Page /login/ Loaded"
   }, 
   {
    "name": "Inbox: search dropdown opened", 
@@ -27,91 +39,120 @@
    "id": "Inbox: sentiment label applied"
   }, 
   {
+   "name": "Page /password/ Loaded", 
+   "id": "Page /password/ Loaded"
+  }, 
+  {
    "name": "Inbox: folder selected", 
    "id": "Inbox: folder selected"
   }, 
   {
-   "name": "Inbox: filter dropdown opened", 
-   "id": "Inbox: filter dropdown opened"
+   "name": "Dashboard: Loaded", 
+   "id": "Dashboard: Loaded"
   }, 
   {
-   "name": "Searches: search updated", 
-   "id": "Searches: search updated"
+   "name": "Onboarding: Completed Onboarding P2", 
+   "id": "Onboarding: Completed Onboarding P2"
   }, 
   {
-   "name": "Inbox: single search results viewed", 
-   "id": "Inbox: single search results viewed"
+   "name": "Page /inbox Loaded", 
+   "id": "Page /inbox Loaded"
   }, 
   {
-   "name": "Inbox: system label applied", 
-   "id": "Inbox: system label applied"
+   "name": "Page /onboarding/ Loaded", 
+   "id": "Page /onboarding/ Loaded"
   }
  ], 
  "links": [
   {
    "source": 0, 
-   "target": 3, 
+   "target": 5, 
    "value": 2460
   }, 
   {
    "source": 0, 
-   "target": 6, 
-   "value": 64
-  }, 
-  {
-   "source": 0, 
-   "target": 4, 
+   "target": 10, 
    "value": 51
   }, 
   {
    "source": 0, 
-   "target": 5, 
-   "value": 1124
+   "target": 7, 
+   "value": 40
   }, 
   {
    "source": 0, 
-   "target": 10, 
-   "value": 3589
-  }, 
-  {
-   "source": 4, 
-   "target": 6, 
-   "value": 70
-  }, 
-  {
-   "source": 4, 
    "target": 8, 
-   "value": 228
+   "value": 1123
   }, 
   {
-   "source": 4, 
-   "target": 1, 
-   "value": 30
-  }, 
-  {
-   "source": 4, 
+   "source": 0, 
    "target": 2, 
-   "value": 42
-  }, 
-  {
-   "source": 4, 
-   "target": 9, 
-   "value": 163
+   "value": 3587
   }, 
   {
    "source": 6, 
-   "target": 3, 
-   "value": 48
+   "target": 9, 
+   "value": 1
+  }, 
+  {
+   "source": 6, 
+   "target": 4, 
+   "value": 2
+  }, 
+  {
+   "source": 6, 
+   "target": 14, 
+   "value": 8
   }, 
   {
    "source": 6, 
    "target": 7, 
-   "value": 12
+   "value": 1
   }, 
   {
    "source": 6, 
+   "target": 13, 
+   "value": 441
+  }, 
+  {
+   "source": 13, 
+   "target": 0, 
+   "value": 244
+  }, 
+  {
+   "source": 13, 
    "target": 10, 
-   "value": 22
+   "value": 96
+  }, 
+  {
+   "source": 13, 
+   "target": 11, 
+   "value": 110
+  }, 
+  {
+   "source": 13, 
+   "target": 7, 
+   "value": 493
+  }, 
+  {
+   "source": 13, 
+   "target": 3, 
+   "value": 76
+  }, 
+  {
+   "source": 14, 
+   "target": 1, 
+   "value": 7
+  }, 
+  {
+   "source": 14, 
+   "target": 12, 
+   "value": 7
+  }, 
+  {
+   "source": 14, 
+   "target": 13, 
+   "value": 12
   }
  ], 
  "multigraph": false

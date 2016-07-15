@@ -3,32 +3,28 @@
  "graph": {}, 
  "nodes": [
   {
-   "name": "Inbox: result read", 
-   "id": "Inbox: result read"
+   "name": "Page /dashboard/ Loaded", 
+   "id": "Page /dashboard/ Loaded"
   }, 
   {
-   "name": "Onboarding: Company details confirmed", 
-   "id": "Onboarding: Company details confirmed"
+   "name": "Inbox: result read", 
+   "id": "Inbox: result read"
   }, 
   {
    "name": "Inbox: system label applied", 
    "id": "Inbox: system label applied"
   }, 
   {
-   "name": "Inbox: filter dropdown opened", 
-   "id": "Inbox: filter dropdown opened"
-  }, 
-  {
    "name": "Page /invite/ Loaded", 
    "id": "Page /invite/ Loaded"
   }, 
   {
-   "name": "Inbox: custom label applied", 
-   "id": "Inbox: custom label applied"
-  }, 
-  {
    "name": "Page /login/ Loaded", 
    "id": "Page /login/ Loaded"
+  }, 
+  {
+   "name": "Onboarding: Completed Onboarding P2", 
+   "id": "Onboarding: Completed Onboarding P2"
   }, 
   {
    "name": "Inbox: search dropdown opened", 
@@ -43,20 +39,32 @@
    "id": "Page /password/ Loaded"
   }, 
   {
+   "name": "Widget: dropdown clicked", 
+   "id": "Widget: dropdown clicked"
+  }, 
+  {
    "name": "Inbox: folder selected", 
    "id": "Inbox: folder selected"
   }, 
   {
-   "name": "Dashboard: Loaded", 
-   "id": "Dashboard: Loaded"
+   "name": "Dashboard: new dashboard created", 
+   "id": "Dashboard: new dashboard created"
   }, 
   {
-   "name": "Onboarding: Completed Onboarding P2", 
-   "id": "Onboarding: Completed Onboarding P2"
+   "name": "Widget: data settings saved", 
+   "id": "Widget: data settings saved"
+  }, 
+  {
+   "name": "Inbox: custom label applied", 
+   "id": "Inbox: custom label applied"
   }, 
   {
    "name": "Page /inbox Loaded", 
    "id": "Page /inbox Loaded"
+  }, 
+  {
+   "name": "Dashboard: dashboard edit link clicked", 
+   "id": "Dashboard: dashboard edit link clicked"
   }, 
   {
    "name": "Page /onboarding/ Loaded", 
@@ -66,93 +74,98 @@
  "links": [
   {
    "source": 0, 
-   "target": 5, 
-   "value": 2460
-  }, 
-  {
-   "source": 0, 
-   "target": 10, 
-   "value": 51
-  }, 
-  {
-   "source": 0, 
-   "target": 7, 
-   "value": 40
-  }, 
-  {
-   "source": 0, 
-   "target": 8, 
-   "value": 1123
-  }, 
-  {
-   "source": 0, 
-   "target": 2, 
-   "value": 3587
-  }, 
-  {
-   "source": 6, 
    "target": 9, 
-   "value": 1
+   "value": 54
   }, 
   {
-   "source": 6, 
-   "target": 4, 
+   "source": 0, 
+   "target": 15, 
+   "value": 3
+  }, 
+  {
+   "source": 0, 
+   "target": 11, 
+   "value": 7
+  }, 
+  {
+   "source": 0, 
+   "target": 12, 
+   "value": 18
+  }, 
+  {
+   "source": 1, 
+   "target": 13, 
+   "value": 217
+  }, 
+  {
+   "source": 1, 
+   "target": 10, 
+   "value": 32
+  }, 
+  {
+   "source": 1, 
+   "target": 6, 
+   "value": 29
+  }, 
+  {
+   "source": 1, 
+   "target": 7, 
+   "value": 536
+  }, 
+  {
+   "source": 1, 
+   "target": 2, 
+   "value": 4306
+  }, 
+  {
+   "source": 4, 
+   "target": 8, 
+   "value": 6
+  }, 
+  {
+   "source": 4, 
+   "target": 16, 
+   "value": 9
+  }, 
+  {
+   "source": 4, 
+   "target": 5, 
    "value": 2
   }, 
   {
-   "source": 6, 
-   "target": 14, 
-   "value": 8
-  }, 
-  {
-   "source": 6, 
-   "target": 7, 
-   "value": 1
-  }, 
-  {
-   "source": 6, 
-   "target": 13, 
-   "value": 441
-  }, 
-  {
-   "source": 13, 
-   "target": 0, 
-   "value": 244
-  }, 
-  {
-   "source": 13, 
-   "target": 10, 
-   "value": 96
-  }, 
-  {
-   "source": 13, 
-   "target": 11, 
-   "value": 110
-  }, 
-  {
-   "source": 13, 
-   "target": 7, 
-   "value": 493
-  }, 
-  {
-   "source": 13, 
+   "source": 4, 
    "target": 3, 
-   "value": 76
+   "value": 2
+  }, 
+  {
+   "source": 4, 
+   "target": 14, 
+   "value": 148
   }, 
   {
    "source": 14, 
    "target": 1, 
-   "value": 7
+   "value": 143
   }, 
   {
    "source": 14, 
-   "target": 12, 
-   "value": 7
+   "target": 10, 
+   "value": 61
   }, 
   {
    "source": 14, 
-   "target": 13, 
-   "value": 12
+   "target": 2, 
+   "value": 36
+  }, 
+  {
+   "source": 14, 
+   "target": 6, 
+   "value": 154
+  }, 
+  {
+   "source": 14, 
+   "target": 0, 
+   "value": 84
   }
  ], 
  "multigraph": false

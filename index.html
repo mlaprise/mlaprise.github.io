@@ -2,24 +2,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Snowplow starts plowing -->
+	<!-- Hectiq Graph start -->
 	<script type="text/javascript">
 	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
 	p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
 	};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-	n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1eegpyktst814.cloudfront.net/sp.js","snowplow"));
+	n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1eegpyktst814.cloudfront.net/sp.js","hectiq"));
 
-	window.snowplow('newTracker', 'cf', 'api.hectiq.ai/v1.0/pixel', { // Initialise a tracker
+	window.hectiq('newTracker', 'cf', 'localhost:8080/v1.0/pixel', { // Initialise a tracker
 	  appId: 'aaaae',
-	  cookieDomain: 'mlaprise.github.io',
+	  cookieDomain: 'localhost:8000',
 	  eventMethod: 'get'
 	});
 
-    window.snowplow('setUserId', 'mlaprise@hectiq.ai');
-	window.snowplow('trackStructEvent', 'item', 'click', 'item_111')
+    window.hectiq('setUserId', 'mlaprise@hectiq.ai');
+	window.hectiq('trackStructEvent', 'item', 'click', 'item_111')
 
 	</script>
-	<!-- Snowplow stops plowing -->
+	<!-- Hectiq Graph end -->
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

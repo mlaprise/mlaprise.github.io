@@ -16,7 +16,7 @@
 
 	window.snowplow('trackPageView');
 		
-	window.snowplow('addTrans',
+	  window.snowplow('addTrans',
 	    '1234',           // order ID - required
 	    'Acme Clothing',  // affiliation or store name
 	    '11.99',          // total - required
@@ -26,7 +26,22 @@
 	    'California',     // state or province
 	    'USA'             // country
 	  );
-	</script>
+
+	   // add item might be called for every item in the shopping cart
+	   // where your ecommerce engine loops through each item in the cart and
+	   // prints out _addItem for each
+	  window.snowplow('addItem',
+	    '1234',           // order ID - required
+	    'DD44',           // SKU/code - required
+	    'T-Shirt',        // product name
+	    'Green Medium',   // category or variation
+	    '11.99',          // unit price - required
+	    '1'               // quantity - required
+	  );
+
+	  // trackTrans sends the transaction to Snowplow tracking servers.
+	  // Must be called last to commit the transaction.
+	  window.snowplow('trackTrans'); //submits transaction to the collector
 	<!-- Snowplow stops plowing -->
 
         <meta charset="utf-8">

@@ -11,7 +11,11 @@
 
 	window.snowplow('newTracker', 'cf', 'api.hectiq.ai/v1.0', { // Initialise a tracker
 	  appId: 'mlaprise',
-	  cookieDomain: 'mlaprise.github.io'
+	  cookieDomain: 'mlaprise.github.io',
+	  eventMethod: 'get',
+	  contexts: {
+	      webPage: true
+	    }
 	});
 
 	window.snowplow('trackPageView');

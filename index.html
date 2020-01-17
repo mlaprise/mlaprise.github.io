@@ -15,6 +15,17 @@
 	});
 
 	window.snowplow('trackPageView');
+		
+	window.snowplow('addTrans',
+	    '1234',           // order ID - required
+	    'Acme Clothing',  // affiliation or store name
+	    '11.99',          // total - required
+	    '1.29',           // tax
+	    '5',              // shipping
+	    'San Jose',       // city
+	    'California',     // state or province
+	    'USA'             // country
+	  );
 	</script>
 	<!-- Snowplow stops plowing -->
 

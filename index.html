@@ -10,45 +10,17 @@
 	n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1eegpyktst814.cloudfront.net/sp.js","snowplow"));
 
 	window.snowplow('newTracker', 'cf', 'api.hectiq.ai/v1.0/pixel', { // Initialise a tracker
-	  appId: 'mlaprise',
+	  appId: 'aaaae',
 	  cookieDomain: 'mlaprise.github.io',
-	  eventMethod: 'get',
-	  contexts: {
-	      webPage: true
-	    }
+	  eventMethod: 'get'
 	});
 
-	window.snowplow('trackPageView');
-		
-	  window.snowplow('addTrans',
-	    '1234',           // order ID - required
-	    'Acme Clothing',  // affiliation or store name
-	    '11.99',          // total - required
-	    '1.29',           // tax
-	    '5',              // shipping
-	    'San Jose',       // city
-	    'California',     // state or province
-	    'USA'             // country
-	  );
+    window.snowplow('setUserId', 'mlaprise@hectiq.ai');
+	window.snowplow('trackStructEvent', 'item', 'click', 'item_111')
 
-	   // add item might be called for every item in the shopping cart
-	   // where your ecommerce engine loops through each item in the cart and
-	   // prints out _addItem for each
-	  window.snowplow('addItem',
-	    '1234',           // order ID - required
-	    'DD44',           // SKU/code - required
-	    'T-Shirt',        // product name
-	    'Green Medium',   // category or variation
-	    '11.99',          // unit price - required
-	    '1'               // quantity - required
-	  );
-
-	  // trackTrans sends the transaction to Snowplow tracking servers.
-	  // Must be called last to commit the transaction.
-	  window.snowplow('trackTrans'); //submits transaction to the collector
-	<!-- Snowplow stops plowing -->
 	</script>
-	
+	<!-- Snowplow stops plowing -->
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title></title>
@@ -57,14 +29,6 @@
 <body>
 
     Banane !
-    
-    <footer>
-        <p class="float-right">
-            <small>
-                <a href="https://www.hectiq.ai" title="developed by Hectiq AI">Developed by Hectiq AI</a>
-            </small>
-        </p>
-    </footer>
     
 </main>
 

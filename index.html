@@ -2,27 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Snowplow starts plowing -->
 	<script type="text/javascript">
-		dataLayer = [{
-      		'productSku': 'pbz00123',
-      		'productName': 'The Original Rider Waite Tarot cards',
-      		'productPrice': '9.99'
-    	}];
-	    	dataLayer.push({
-		'event': 'playVideo',
-		'videoId': 'vid-000-123',
-		'videoName': 'Skateboarding dog',
-		'videoAuthor': 'user-00121',
-		'videoFormat': 'hd',
+	;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+	p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+	};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+	n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1eegpyktst814.cloudfront.net/sp.js","snowplow"));
+
+	window.snowplow('newTracker', 'cf', 'api.hectiq.ai/v1.0', { // Initialise a tracker
+	  appId: 'mlaprise',
+	  cookieDomain: 'mlaprise.github.io'
 	});
+
+	window.snowplow('trackPageView');
 	</script>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-PXK7RMX');</script>
-	<!-- End Google Tag Manager -->
+	<!-- Snowplow stops plowing -->
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,10 +24,6 @@
     
 </head>
 <body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXK7RMX"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 
     Banane !
     

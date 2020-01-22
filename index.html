@@ -12,7 +12,8 @@
 	window.hectiq('newTracker', 'cf', 'api.hectiq.ai/v1.0/pixel', { // Initialise a tracker
 	  appId: 'aaaae',
 	  cookieDomain: 'mlaprise.github.io',
-	  eventMethod: 'get'
+	  eventMethod: 'get',
+	  respectDoNotTrack: true
 	});
 
     window.hectiq('setUserId', 'mlaprise@hectiq.ai');

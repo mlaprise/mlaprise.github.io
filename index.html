@@ -15,6 +15,10 @@
 	  eventMethod: 'get'
 	});
 
+	window.hectiq(function (x) {
+	  console.log(x);
+	}, "sp.js has loaded");
+		
     window.hectiq('setUserId', 'mlaprise@hectiq.ai');
 	window.hectiq('trackStructEvent', 'item', 'click', 'item_111')
 

@@ -15,18 +15,13 @@
 	  eventMethod: 'get'
 	});
 
-    window.hectiq('addItem',
-	    '1234',           // order ID - required
-	    'DD44',           // SKU/code - required
-	    'T-Shirt',        // product name
-	    'Green Medium',   // category or variation
-	    '11.99',          // unit price - required
-	    '1',              // quantity - required
-	    'USD'             // currency
-	  );
 		
     window.hectiq('setUserId', 'mlaprise@hectiq.ai');
-	window.hectiq('trackStructEvent', 'item', 'click', 'item_111')
+	window.hectiq('trackStructEvent',
+		      'item',
+		      'click',
+		      'item_111',
+		      'https://s7d2.scene7.com/is/image/clearly/derek-cardigan-parker-54-navy-top-angle?fmt=jpg&wid=940&cropN=0,0.165,1,0.72')
 
 	</script>
 	<!-- Hectiq Graph end -->

@@ -15,9 +15,15 @@
 	  eventMethod: 'get'
 	});
 
-	window.hectiq(function (x) {
-	  console.log(x);
-	}, "sp.js has loaded");
+    window.hectiq('addItem',
+	    '1234',           // order ID - required
+	    'DD44',           // SKU/code - required
+	    'T-Shirt',        // product name
+	    'Green Medium',   // category or variation
+	    '11.99',          // unit price - required
+	    '1',              // quantity - required
+	    'USD'             // currency
+	  );
 		
     window.hectiq('setUserId', 'mlaprise@hectiq.ai');
 	window.hectiq('trackStructEvent', 'item', 'click', 'item_111')
